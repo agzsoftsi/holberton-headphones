@@ -7,11 +7,10 @@
    :root {
     --color-white: #fff;
     --color-red: #FF6565;
-    --font-size-small: 12px;
-    --font-size-btn: 14px;
-    --font-size-medium: 16px;
-    --font-size-xl: 32px;
-    --font-family-body: 'Source Sans Pro', 'Lato', sans-serif;
+    --font-small: 12px;
+    --font-medium: 16px;
+    --font-large: 32px;
+    --font: 'Source Sans Pro', 'Lato', sans-serif;
   }
 
 /** Header Styles **/
@@ -53,7 +52,7 @@
   .header-content p {
     margin: 2rem 0;
     line-height: 1.5;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-medium);
   }
   
   /** Media Query desktop version **/
@@ -79,8 +78,8 @@
   /** Button Style **/
   
   .button {
-    font-family: var(--font-family-body);
-    font-size: var(--font-size-btn);
+    font-family: var(--font);
+    font-size: 14px;
     background: var(--color-red);
     color: white;
     border: none;
@@ -124,9 +123,9 @@
     margin: auto 0;
     padding: 0;
     list-style-type: none;
-    font-size: var(--font-size-small);
+    font-size: var(--font-small);
     font-weight: 700;
-    font-family: var(--font-family-body);
+    font-family: var(--font);
   }
   
   .header-nav li {
@@ -136,12 +135,12 @@
   .header-content {
     width: 75%;
     text-align: center;
-    font-family: var(--font-family-body);
+    font-family: var(--font);
     margin: 20rem auto 0 auto;
   }
   
   .title {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-large);
     position: relative;
     font-weight: 700;
   }
@@ -149,7 +148,7 @@
   .title::after {
     content: "Lorem ipsum dolor set amet lorem ipsum";
     display: block;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-medium);
     position: relative;
     margin: 0.25rem 0;
   }
@@ -178,7 +177,7 @@
       margin: 1rem auto;
       text-align: center;
       font-weight: bold;
-      font-size: var(--font-size-btn);
+      font-size: 14px;
     }
   
     .header-nav li {
