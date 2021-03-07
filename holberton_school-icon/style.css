@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+[class^="holberton_school-icon-"]::before,
+[class*=" holberton_school-icon-"]::before {
+  font-size: 6rem;
+  color: #ff6565;
+}
+
+footer [class^="holberton_school-icon-"]::before,
+footer [class*=" holberton_school-icon-"]::before {
+  font-size: 2rem;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+footer a:hover [class^="holberton_school-icon-"]::before,
+footer a:hover [class*=" holberton_school-icon-"]::before {
+  color: #ff6565;
+}
+
 .holberton_school-icon-arrow_1:before {
   content: "\e900";
 }
