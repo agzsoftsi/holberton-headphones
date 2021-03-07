@@ -4,11 +4,11 @@
 
 In this project, you will implement from scratch, without any library, a web page. You will use all HTML/CSS/Accessibility/Responsive design knowledges that you learned previously.
 
-You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
+You wonï¿½t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
 
 Here the final result:
 
-![](images/concept.jpg)
+![](Tasks/images/concept.jpg)
 
 This webpage has been designed by Nicolas Philippot, UI/UX designer.
 
@@ -21,15 +21,15 @@ This webpage has been designed by Nicolas Philippot, UI/UX designer.
 
 **0. Read and be familiar with Figma**
 
-Create an account in Figma and open this project and “Duplicate to your Drafts” to have access to all design details.
+Create an account in Figma and open this project and ï¿½Duplicate to your Draftsï¿½ to have access to all design details.
 
-If you can’t access to it, please find here the [Figma file](https://www.figma.com/file/gkWRcFqkwtruWZgSfnnHF0/Holberton-School---Headphone-company?node-id=0%3A2)
+If you canï¿½t access to it, please find here the [Figma file](https://www.figma.com/file/gkWRcFqkwtruWZgSfnnHF0/Holberton-School---Headphone-company?node-id=0%3A2)
 
-![](images/pic1.png)
+![](Tasks/images/pic1.png)
 
 Important notes with Figma:
 
-- if your computer doesn’t have missing fonts, you can find them here: [source-sans-pro](https://www.fontsquirrel.com/fonts/source-sans-pro) and [Spin-Cycle-OT](https://www.fontsquirrel.com/fonts/Spin-Cycle-OT)
+- if your computer doesnï¿½t have missing fonts, you can find them here: [source-sans-pro](https://www.fontsquirrel.com/fonts/source-sans-pro) and [Spin-Cycle-OT](https://www.fontsquirrel.com/fonts/Spin-Cycle-OT)
 - some values are in float - feel free to round them
 
 For this task, please write an amazing README.md
@@ -44,13 +44,13 @@ For this task, please write an amazing README.md
 
 **1. Header**
 
-Files: [0-index.html](0-index.html/) - [0-styles.css](0-styles.css/)
+Files: [0-index.html](Tasks/0-index.html/) - [0-styles.css](Tasks/0-styles.css/)
 
 Building a web page the right way, is not easy - expect if you put in place strong foundations:
 
 - reset CSS styling
 - use variables
-- simple/“as generic as you can” CSS selectors
+- simple/ï¿½as generic as you canï¿½ CSS selectors
 - avoid as more as you can super specific CSS selector
 - simple HTML structure - div containers are your friend!
 
@@ -64,41 +64,41 @@ Here an archive of all assets needed: [images_0x09.zip](https://intranet.hbtn.io
 
 ### Desktop
 
-![](images/headerD.gif)
+![](Tasks/images/headerD.gif)
 
 
 ### Mobile
 
-![](images/headerM.gif)
+![](Tasks/images/headerM.gif)
 
 
 **2. "What we do..." section**
 
-Files: [1-index.html](1-index.html/) - [1-styles.css](1-styles.css/)
+Files: [1-index.html](Tasks/1-index.html/) - [1-styles.css](Tasks/1-styles.css/)
 
 Copy files from the previous task.
 
-For this second task: create the “What we do…” section
+For this second task: create the ï¿½What we doï¿½ï¿½ section
 
 In this section, you will need custom font icons. Here the archive of it: [holberton_school-icon.zip](https://intranet.hbtn.io/rltoken/UTLmru8XUpDXW2EbLdLyew) Inside you will find demo page of how to use it.
 
-Important: try to build as generic as you can… you will probably need some components in next section.
+Important: try to build as generic as you canï¿½ you will probably need some components in next section.
 
 
 **3. "Our results" section**
 
-Files: [2-index.html](2-index.html/) - [2-styles.css](2-styles.css/)
+Files: [2-index.html](Tasks/2-index.html/) - [2-styles.css](Tasks/2-styles.css/)
 
 Copy files from the previous task.
 
-For this third task: create the “Our results” section
+For this third task: create the ï¿½Our resultsï¿½ section
 
 Now you can reuse components form the previous task!
 
 
 **4. Contact us**
 
-Files: [3-index.html](3-index.html/) - [3-styles.css](3-styles.css/)
+Files: [3-index.html](Tasks/3-index.html/) - [3-styles.css](Tasks/3-styles.css/)
 
 Copy files from the previous task.
 
@@ -109,21 +109,21 @@ You are free to add any animations and/or constraints on fields.
 
 **5. Footer**
 
-Files: [4-index.html](4-index.html/) - [4-styles.css](4-styles.css/)
+Files: [4-index.html](Tasks/4-index.html/) - [4-styles.css](Tasks/4-styles.css/)
 
 Copy files from the previous task.
 
-Last piece of the page… the Footer!
+Last piece of the pageï¿½ the Footer!
 
 When you are done, here the result:
 
 ### Desktop:
 
-![](images/footerD.gif)
+![](Tasks/images/footerD.gif)
 
 ### Mobile:
 
-![](images/footerM.gif)
+![](Tasks/images/footerM.gif)
 
 
 And you are done!
@@ -133,23 +133,23 @@ Good job!
 
 **6. Replace image by... code!**
 
-Files: [100-index.html](100-index.html/) - [100-styles.css](100-styles.css/)
+Files: [100-index.html](Tasks/100-index.html/) - [100-styles.css](Tasks/100-styles.css/)
 
-In the section “Our results”, replace item background image by HTML and CSS only!ç
+In the section ï¿½Our resultsï¿½, replace item background image by HTML and CSS only!ï¿½
 
 
 **7. Let's animate items**
 
-Files: [101-index.html](101-index.html/) - [101-styles.css](101-styles.css/)
+Files: [101-index.html](Tasks/101-index.html/) - [101-styles.css](Tasks/101-styles.css/)
 
-From 4-index.html and 4-styles.css, add fun animations to “What we do…” and “Our results” sections items row. Either all the time, either when hover.
+From 4-index.html and 4-styles.css, add fun animations to ï¿½What we doï¿½ï¿½ and ï¿½Our resultsï¿½ sections items row. Either all the time, either when hover.
 
-Scaling, opacity, rotation, bouncing… many options!
+Scaling, opacity, rotation, bouncingï¿½ many options!
 
 
 **8. And SASS??**
 
-Files: [102-styles.css](102-styles.css/)
+Files: [102-styles.css](Tasks/102-styles.css/)
 
 Take your 101-styles.css file and create a 102-styles.scss that will be the SASS version of it.
 
